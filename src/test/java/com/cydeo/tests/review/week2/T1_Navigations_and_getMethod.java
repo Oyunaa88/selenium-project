@@ -51,5 +51,7 @@ searchButton.click();
         }
 
         driver.close();
+
+        driver.quit();
     }
 }
