@@ -29,10 +29,6 @@ public class T6_selecting_date_dropdown {
         driver.get("https://practice.cydeo.com/dropdown");
     }
 
-    @Override
-    public boolean equals(Object obj) {
-        return super.equals(obj);
-    }
 
     @AfterMethod
     public void tearDown(){
