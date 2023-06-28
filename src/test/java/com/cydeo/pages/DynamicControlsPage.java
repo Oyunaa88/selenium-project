@@ -11,7 +11,7 @@ public class DynamicControlsPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(xpath = "//button[text()='Remove]")
+    @FindBy(xpath = "//button[text()='Remove']")
     public WebElement removeButton;
 
     @FindBy(id="loading")
